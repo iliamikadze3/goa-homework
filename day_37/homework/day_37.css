@@ -1,17 +1,89 @@
-p{
-    width: 1250px;
-    text-align: right;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: box-family;
+    font-family: 'Franklin Gothic Medium';
 }
 
-body {
-    background-image:url("download.jpg")
+nav {
+    display: flex;
+    gap: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
-h1 {
+nav .categories ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+nav .categories ul li {
+    color: rgb(134, 129, 129);
+    text-transform: capitalize;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium';
+}
+
+nav h1 {
+    font-weight: light;
+    font-style: italic;
+    font-size: 1em;
+}
+
+button {
+    background-color: purple;
+    text-transform: capitalize;
+    border: 0;
     color: white;
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
 }
 
-p {
+main.main_content {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    gap: 40px;
+}
+
+main .main_content h1{
+    position: absolute;
+    font-size:3em;
+    font-weight:bolder;
+    color: black;
+    text-transform: capitalize;
+    color:grey;
+    bottom: 370px;
+    left: 60px;
+}
+
+.main_content p {
+    position: absolute;
+    color: lightgray;
+    bottom: 300px;
+    left: 60px;
+}
+
+.k {
+    position: absolute;
+    right: 10px;
+}
+
+.x {
+    position: absolute;
+    background-color: purple;
+    text-transform: capitalize;
+    border: 0;
     color: white;
+    border-radius: 25px;
+    width: 150px;
+    height: 25px;
+    bottom: 240px;
+    left: 60px;
 }
-

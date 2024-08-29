@@ -1,0 +1,73 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+  }
+  
+  .wyali {
+      display: grid;
+      grid-template-areas: 
+          "header header header header"
+          "aside sect1 sect2 sect3"
+          "aside content content content"
+          "footer footer footer footer";
+      grid-template-columns: 1fr 2fr 2fr 2fr;
+      grid-template-rows: auto 200px 1fr auto;
+      height: 100vh;
+  }
+  
+  header {
+      grid-area: header;
+      background-color: #a7c1e4;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  aside {
+      grid-area: aside;
+      background-color: #2081e3;
+      padding: 20px;
+      text-align: center;
+      color: white;
+  }
+  
+  .sect1 {
+      grid-area: sect1;
+      background-color: #b0ccee;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .sect2 {
+      grid-area: sect2;
+      background-color: #6d89b6;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .sect3 {
+      grid-area: sect3;
+      background-color: #7699bb;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  main {
+      grid-area: content;
+      background-color: #799abf;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  footer {
+      grid-area: footer;
+      background-color: #62819c;
+      padding: 20px;
+      text-align: center;
+  }
+  
