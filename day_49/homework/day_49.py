@@ -1,0 +1,1 @@
+bill = int(input("enter your email"))
