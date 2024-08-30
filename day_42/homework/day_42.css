@@ -1,0 +1,52 @@
+/* #pind {
+    justify-content:flex-end;
+} */
+
+/* #pind {
+    justify-content:center;
+} */
+
+/* #pind {
+    justify-content: space-around;
+} */
+
+/* #pind{
+    justify-content: space-between;
+} */
+
+/* #pind{
+    align-items: flex-end;
+} */
+
+/* #pind {
+    justify-content:center;
+    align-items:center;
+} */
+
+/* #pind {
+    justify-content:space-around;
+    align-items:flex-end;
+} */
+
+/* #pind {
+    flex-direction: row-reverse;
+} */
+
+/* #pind {
+    flex-direction:column;
+} */
+
+/* #pind {
+    flex-direction:row-reverse;
+    justify-content:flex-end;
+} */
+
+/* #pind {
+    flex-direction: column;
+    justify-content: flex-end;
+} */
+
+/* #pind {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+} */
